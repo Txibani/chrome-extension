@@ -14,8 +14,13 @@
       "matches": [
         "<all_urls>"
       ],
-      "css": ["main.css"],
+      "css": ["popup.css"],
       "js": ["jquery-2.2.1.min.js", "content.js"]
     }
-  ]
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [ "tabs" ]
 }

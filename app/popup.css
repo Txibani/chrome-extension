@@ -1,0 +1,11 @@
+body {
+    background: red;
+}
+
+.yes_show {
+    display: none;
+}
+
+.no_show {
+    display: none;
+}
